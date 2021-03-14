@@ -1,0 +1,36 @@
+# Virtualenvs
+*.env
+*.venv
+*migrations
+.MailTypeOutlook
+.autoenv*
+
+# Statics
+/static
+/media
+/web/vueapp/dist
+
+# Python bytecode
+*.pyc
+
+# Django
+migrations
+!migrations/__init__.py
+/apps/commons/fixtures
+*/fixtures/*.json
+
+
+# SQLite3
+*.sqlite3
+
+# Node.js
+node_modules
+npm-debug.log
+package-lock.json
+/web/vueapp/node_modules/
+
+# Editors
+.vscode
+.vscode/*
+/.idea
+/web/vueapp/.idea
