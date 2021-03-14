@@ -12,6 +12,7 @@
 
 # Python bytecode
 *.pyc
+manage.py
 
 # Django
 migrations
